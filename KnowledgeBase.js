@@ -7,6 +7,8 @@ export const KnowledgeBase = {
     website: "https://younglabs.in",
     pitch:
       "We are an e-learning company that provides foundational skill development courses for children in areas like handwriting, English, Vedic maths, and more.",
+    discount: "Contact our team for discount",
+    time: "Class time will be arrange accoring to your avilability",
   },
 
   courses: [
