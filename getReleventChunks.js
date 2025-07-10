@@ -12,7 +12,7 @@ const cosineSimilarity = (a, b) => {
   return dot / (normA * normB);
 };
 
-export const getRelevantChunks = async (query, topK = 5) => {
+export const getReleventChunks = async (query, topK = 5) => {
   try {
     const response = await axios.post(
       "https://api.openai.com/v1/embeddings",
