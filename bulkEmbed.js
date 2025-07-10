@@ -22,94 +22,43 @@ const createEmbedding = async (text) => {
         },
       }
     );
+
     return response.data.data[0].embedding;
   } catch (err) {
-    console.error("❌ Error creating embedding:", err.message);
+    console.error("Error creating embedding:", err.message);
+    return null;
   }
 };
 
-const InsertEmbedding = async () => {
+const insertEmbeddings = async () => {
   await mongoose.connect(process.env.MONGO_URI);
-  const chunks = [];
+  const entries = KnowledgeBase.entries;
 
-  // Company Info
-  const company = KnowledgeBase.company;
-  chunks.push(`Company Name: ${company.name}`);
-  chunks.push(`Customer Care: ${company.customerCareNumber}`);
-  chunks.push(`Trust Information: ${company.trustInfo}`);
-  chunks.push(`Website: ${company.website}`);
-  chunks.push(`Pitch: ${company.pitch}`);
-  chunks.push(`Class Timing Info: ${company.time}`);
-  chunks.push(`Discount Info: ${company.discount}`);
+  for (const entry of entries) {
+    const parts = [];
 
-  // Courses
-  KnowledgeBase.courses.forEach((course) => {
-    chunks.push(`Course Name: ${course.name}`);
+    if (entry.course) parts.push(`Course: ${entry.course}`);
+    if (entry.module) parts.push(`Module: ${entry.module}`);
+    if (entry.ageGroup) parts.push(`Age Group: ${entry.ageGroup}`);
+    if (entry.description) parts.push(`Description: ${entry.description}`);
+    if (entry.focusAreas)
+      parts.push(`Focus Areas: ${entry.focusAreas.join(", ")}`);
+    if (entry.remarks) parts.push(`Remarks: ${entry.remarks}`);
+    if (entry.topics) parts.push(`Topics: ${entry.topics.join(", ")}`);
+    if (entry.framework) parts.push(`Framework: ${entry.framework}`);
+    if (entry.sessionStructure)
+      parts.push(`Session Structure: ${entry.sessionStructure}`);
+    if (entry.tools) parts.push(`Tools: ${entry.tools.join(", ")}`);
+    if (entry.points) parts.push(`Selling Points: ${entry.points.join(", ")}`);
+    if (entry.script) parts.push(`Sales Script: ${entry.script}`);
+    if (entry.question) parts.push(`Sample Question: ${entry.question}`);
+    if (entry.outcome) parts.push(`Outcome: ${entry.outcome}`);
 
-    // Description if available
-    if (course.description) {
-      chunks.push(`Course Description: ${course.description}`);
-    }
-
-    // Age Groups
-    if (course.ageGroups) {
-      for (const [ageRange, detail] of Object.entries(course.ageGroups)) {
-        chunks.push(
-          `Age Group ${ageRange}: Focus Areas - ${detail.focus.join(
-            ", "
-          )}, Remarks - ${detail.remarks || "N/A"}`
-        );
-      }
-    }
-
-    // Modules
-    if (course.modules) {
-      course.modules.forEach((module) => {
-        chunks.push(
-          `Module: ${module.name}, Topics: ${module.topics.join(", ")}`
-        );
-        if (module.painPoints) {
-          chunks.push(
-            `Pain Points in ${module.name}: ${module.painPoints.join(", ")}`
-          );
-        }
-      });
-    }
-
-    // Methodology
-    if (course.methodology) {
-      const { framework, sessionFlow, tools } = course.methodology;
-      chunks.push(
-        `Course Methodology: Framework - ${framework}, Session Flow - ${sessionFlow}, Tools - ${tools.join(
-          ", "
-        )}`
-      );
-    }
-
-    // Selling Points
-    if (course.sellingPoints) {
-      chunks.push(`Selling Points: ${course.sellingPoints.join(", ")}`);
-    }
-
-    // Sales Pitch
-    if (course.salesPitch) {
-      const { script, sampleQuestion, outcome } = course.salesPitch;
-      chunks.push(
-        `Sales Pitch Script: ${script}\nSample Question: ${sampleQuestion}\nOutcome: ${outcome}`
-      );
-    }
-  });
-
-  // Process Embedding & Save to DB
-  for (const text of chunks) {
-    try {
-      const embedding = await createEmbedding(text);
-      if (embedding) {
-        await Chunk.create({ text, embedding });
-        console.log("✅ Embedding saved for chunk:", text.slice(0, 60));
-      }
-    } catch (error) {
-      console.error("❌ Failed to process chunk:", text.slice(0, 60));
+    const text = parts.join("\n");
+    const embedding = await createEmbedding(text);
+    if (embedding) {
+      await Chunk.create({ text, embedding });
+      console.log("✅ Embedded and stored:", text.slice(0, 60));
     }
   }
 
@@ -117,4 +66,4 @@ const InsertEmbedding = async () => {
   console.log("🔚 All chunks embedded and DB connection closed.");
 };
 
-InsertEmbedding();
+insertEmbeddings();

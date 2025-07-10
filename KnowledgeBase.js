@@ -1,140 +1,133 @@
 export const KnowledgeBase = {
   company: {
     name: "YoungLabs",
-    customerCareNumber: "+91 9289029696",
+    description:
+      "YoungLabs is an edtech company providing foundational skill courses such as English, handwriting, and Vedic maths for children aged 5–14.",
+    customerCare: "+91 9289029696",
     trustInfo:
-      "You can trust YoungLabs—we've helped 1000+ students with expert courses. Demo classes and real results available.",
-    website: "https://younglabs.in",
-    pitch:
-      "We are an e-learning company that provides foundational skill development courses for children in areas like handwriting, English, Vedic maths, and more.",
-    discount: "Contact our team for discount",
-    time: "Class time will be arrange accoring to your avilability",
+      "Over 1000+ students taught. Demo classes, live feedback, and 900+ real reviews.",
+    discount: "Contact us for ongoing offers.",
+    timingInfo: "Classes are scheduled as per your availability.",
   },
 
-  courses: [
+  entries: [
+    // 🔤 Course Overview
     {
-      name: "English Holistic Development",
-      ageGroups: {
-        "5-7": {
-          focus: ["Phonics", "Reading"],
-          remarks: "Less grammar, focus on reading and sounds",
-        },
-        "8-10": {
-          focus: ["Grammar", "Creative writing basics"],
-          remarks: "Struggles with joining words or sentence flow",
-        },
-        "11-14": {
-          focus: ["Advanced Grammar", "Public Speaking", "Creative Writing"],
-          remarks: "Ready for debates and storytelling with structure",
-        },
-      },
-      modules: [
-        {
-          name: "Phonics",
-          topics: [
-            "44 synthetic sounds (phonemes)",
-            "Short & long vowels",
-            "Blends (bl, cl, gr, fr)",
-            "Digraphs (ch, sh)",
-            "Sight words (the, do, with)",
-            "Voice modulation",
-          ],
-        },
-        {
-          name: "Reading",
-          topics: [
-            "3-6 letter word reading",
-            "Sentence to story reading",
-            "Poems, Comprehension",
-            "Vocabulary boosters",
-            "Voice modulation with punctuation",
-          ],
-        },
-        {
-          name: "Grammar",
-          topics: [
-            "8 Parts of Speech",
-            "Tenses (Past, Present, Future)",
-            "Articles, Prepositions",
-            "Tools to make grammar fun",
-          ],
-          painPoints: [
-            "Grammar is boring but essential",
-            "Students can't form correct sentences",
-          ],
-        },
-        {
-          name: "Public Speaking",
-          topics: [
-            "Sentence formation",
-            "Debates, Speeches",
-            "Picture description",
-            "Similes & Oxymoron",
-            "Confidence building",
-          ],
-          painPoints: ["Stage fear", "Introversion", "Poor sentence clarity"],
-        },
-        {
-          name: "Creative Writing",
-          topics: [
-            "Ideation",
-            "Paragraph & Essay writing",
-            "Letter, Notice, Report",
-            "Story & Dialogue writing",
-            "Genre-based writing",
-          ],
-        },
-      ],
-
-      methodology: {
-        framework: "PWAP (Presentation, Weakness ID, Assessment, Progress)",
-        sessionFlow: "30-30 min structure with fun, interactive sessions",
-        tools: ["Rating panel", "Visual reports", "Homework support"],
-      },
-      sellingPoints: [
-        "Live sessions (not recorded)",
-        "Flexible timings",
-        "Parent involvement",
-        "900+ genuine reviews",
-        "Influencer-affiliated & trusted brand",
-      ],
-      salesPitch: {
-        script:
-          "Hey, I'm [Name] from YoungLabs. You showed interest in the English Language Course. Can I explain how it can help your child improve in phonics, reading, grammar, speaking, and writing?",
-        sampleQuestion:
-          "Could you rate your child (1–5) in these 5 areas: Phonics, Reading, Listening, Speaking, Writing?",
-        outcome:
-          "We generate a plan based on your inputs and provide demo + progress tracking.",
-      },
+      type: "course",
+      course: "English Holistic Development",
+      audience: "Ages 5–14",
+      description:
+        "Covers phonics, grammar, creative writing, reading, public speaking, and more. Customized based on age group.",
     },
 
-    // Add other courses below
+    // 🧒 Age Group Specific Focus
     {
-      name: "Handwriting Improvement",
-      ageGroups: {
-        "5-10": {
-          focus: ["Clarity", "Letter formation", "Speed"],
-        },
-      },
-      modules: [
-        {
-          name: "Stroke Practice",
-          topics: ["Curves", "Loops", "Consistency", "Spacing"],
-        },
-        {
-          name: "Cursive Writing",
-          topics: ["Letter joins", "Slant correction", "Word flow"],
-        },
+      type: "age_focus",
+      course: "English Holistic Development",
+      ageGroup: "5–7 years",
+      focusAreas: ["Phonics", "Reading"],
+      remarks:
+        "Less grammar focus, emphasis on sound decoding and basic fluency.",
+    },
+    {
+      type: "age_focus",
+      course: "English Holistic Development",
+      ageGroup: "8–10 years",
+      focusAreas: ["Grammar", "Creative Writing Basics"],
+      remarks:
+        "Can read fluently, but struggles with combining ideas and writing.",
+    },
+
+    // 📘 Module: Phonics
+    {
+      type: "module",
+      course: "English Holistic Development",
+      module: "Phonics",
+      topics: [
+        "44 synthetic phonemes",
+        "Short and long vowels",
+        "Blends (bl, cl, gr, fr)",
+        "Digraphs (ch, sh)",
+        "Sight words",
+        "Voice modulation",
       ],
-      methodology: {
-        framework: "Daily practice with personalized tracking",
-        tools: ["Handwriting sample rating", "Progress tracker"],
-      },
-      sellingPoints: [
-        "Visible improvement within weeks",
-        "Demo + before/after comparison",
-        "Live feedback during writing",
+    },
+
+    // 📣 Module: Public Speaking
+    {
+      type: "module",
+      course: "English Holistic Development",
+      module: "Public Speaking",
+      topics: [
+        "Forming sentences using grammar",
+        "Debates",
+        "Picture description",
+        "Speech delivery",
+        "Similes & oxymorons",
+        "Overcoming stage fear",
       ],
+    },
+
+    // 🎯 Methodology
+    {
+      type: "methodology",
+      course: "English Holistic Development",
+      framework: "PWAP (Presentation, Weakness ID, Assessment, Progress)",
+      sessionStructure: "30 + 30 mins structure with interactive teaching",
+      tools: ["Rating panel", "Visual progress reports", "Live feedback"],
+    },
+
+    // 🌟 Selling Points
+    {
+      type: "benefits",
+      course: "English Holistic Development",
+      points: [
+        "Live sessions (not recorded)",
+        "Flexible timings",
+        "1:1 attention",
+        "900+ genuine parent reviews",
+        "Trusted by influencers",
+      ],
+    },
+
+    // 🧾 Sales Pitch
+    {
+      type: "sales_pitch",
+      course: "English Holistic Development",
+      script:
+        "Hey, I'm [Name] from YoungLabs. You showed interest in our English course. Can I explain how it helps with phonics, grammar, writing, and speaking?",
+      question:
+        "Could you rate your child (1–5) in: Phonics, Reading, Listening, Speaking, Writing?",
+      outcome:
+        "We generate a personalized plan and provide live demo + tracking.",
+    },
+
+    // ✍️ Another Course
+    {
+      type: "course",
+      course: "Handwriting Improvement",
+      audience: "Ages 5–10",
+      description:
+        "Focuses on clarity, speed, cursive practice, and improving letter consistency.",
+    },
+
+    {
+      type: "module",
+      course: "Handwriting Improvement",
+      module: "Cursive Writing",
+      topics: [
+        "Letter joins",
+        "Slant correction",
+        "Word spacing",
+        "Writing flow",
+      ],
+    },
+
+    {
+      type: "methodology",
+      course: "Handwriting Improvement",
+      framework: "Daily guided practice + weekly evaluations",
+      tools: ["Before-after samples", "Progress sheets"],
     },
   ],
 };
