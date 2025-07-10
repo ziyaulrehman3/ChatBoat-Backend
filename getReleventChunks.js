@@ -14,7 +14,7 @@ const cosineSimilarity = (a, b) => {
 };
 
 // Main Function: Get top K relevant text chunks from DB based on query
-export const getRelevantChunks = async (query, topK = 5) => {
+export const getRelevantChunks = async (query, topK = 10) => {
   try {
     // Step 1: Get embedding for the input query
     const response = await axios.post(
