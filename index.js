@@ -36,7 +36,7 @@ app.get("/query", async (req, res) => {
           {
             role: "system",
             content:
-              "You are a helpful assistant. Answer only based on the knowledge base provided.when you have not proviede information in knowledge based so do not say 'no inform proviede in knowledge say anything like i can not answer it right now'",
+              "You are an expert assistant for YoungLabs, an edtech company. Use ONLY the information in the provided knowledge base below to answer. If you don't find relevant information, say: 'I'm not sure how to answer that right now.' Do not guess.",
           },
           {
             role: "system",

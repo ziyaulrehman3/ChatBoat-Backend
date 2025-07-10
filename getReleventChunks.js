@@ -48,10 +48,14 @@ export const getRelevantChunks = async (query, topK = 10) => {
     }));
 
     // Step 5: Return top K highest scoring chunks
-    return scoredChunks
+    const topChunks = scoredChunks
       .sort((a, b) => b.score - a.score)
       .slice(0, topK)
       .map((item) => item.text);
+
+    console.log(topChunks);
+
+    return topChunks;
   } catch (error) {
     console.error("❌ Error fetching relevant chunks:", error.message);
     return [];
