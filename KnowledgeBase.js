@@ -1,14 +1,22 @@
 export const KnowledgeBase = [
   {
-    company: {
-      name: "Younglabs",
-      customerCareNumber: "9999955555",
+    category: "company_info",
+    data: {
+      name: "YoungLabs",
+      customerCareNumber: "+91 9289029696",
       trustInfo:
-        "We have more than 1000 active students and over 300 expert teachers.",
+        "You can trust YoungLabs—we've helped 1000+ students with expert courses. Demo classes and real results available. ✅",
+      availableTime:
+        "According to your preferred time and teacher availability",
+      discountInfo: "Currently not available",
     },
-    courses: [
+  },
+  {
+    category: "courses",
+    data: [
       {
         name: "Handwriting Improvement",
+        type: "Skill Development",
         duration: "3 months",
         fees: {
           "1 month": "₹1000",
@@ -20,6 +28,7 @@ export const KnowledgeBase = [
       },
       {
         name: "General Knowledge",
+        type: "Academic Support",
         duration: "3 months",
         fees: {
           "1 month": "₹800",
@@ -31,6 +40,7 @@ export const KnowledgeBase = [
       },
       {
         name: "English Learning",
+        type: "Language Learning",
         duration: "3 months",
         fees: {
           "1 month": "₹1200",
@@ -40,10 +50,5 @@ export const KnowledgeBase = [
         description: "Improve vocabulary, grammar, and spoken English fluency.",
       },
     ],
-    time: "accoring to your prefered time and teachers avilablity",
-    discount: "not avilable",
   },
 ];
-
-
-
