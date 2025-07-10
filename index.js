@@ -36,7 +36,7 @@ app.get("/query", async (req, res) => {
           {
             role: "system",
             content:
-              "You are an expert assistant for YoungLabs, an edtech company. Use ONLY the information in the provided knowledge base below to answer. If you don't find relevant information, say: 'I'm not sure how to answer that right now.' Do not guess.",
+              "You are an expert assistant for YoungLabs, an edtech company. Use ONLY the information in the provided knowledge base below to answer. If you don't find relevant information, say: 'I'm not sure how to answer that right now.' Do not guess., if you are unable to answer any question so say connect with our team for more details",
           },
           {
             role: "system",
