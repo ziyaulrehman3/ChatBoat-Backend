@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 dotenv.config();
 
+import ChatApi from "./server.js";
+
 import cors from "cors";
 
 import { OpenAI } from "openai";
@@ -21,48 +23,60 @@ app.get("/", (req, res) => {
 // ✅ Query route
 app.get("/query", async (req, res) => {
   const userQuestion = req.query.query;
-  console.log(userQuestion);
+  const threadId = req.query.threadid == "null" ? null : req.query.threadid;
+
+  // console.log(userQuestion);
+  console.log(req.query);
 
   try {
-    const similarChunks = await getReleventChunks(userQuestion);
-    const context = similarChunks.join("\n");
-    console.log(context);
-
-    const response = await axios.post(
-      "https://api.openai.com/v1/chat/completions",
-      {
-        model: "gpt-3.5-turbo",
-        messages: [
-          {
-            role: "system",
-            content:
-              "You are an expert assistant for YoungLabs, an edtech company. Use ONLY the information in the provided knowledge base below to answer. If you don't find relevant information, say: 'I'm not sure how to answer that right now.' Do not guess., if you are unable to answer any question so say connect with our team for more details",
-          },
-          {
-            role: "system",
-            content: `Knowledge Base: ${context}`,
-          },
-          {
-            role: "user",
-            content: userQuestion, // e.g. "What are the available courses?"
-          },
-        ],
-      },
-      {
-        headers: {
-          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-          "Content-Type": "application/json",
-        },
-      }
-    );
-
-    const answer = response.data.choices[0].message.content;
-    console.log(answer);
-    res.json({ response: answer });
+    const response = await ChatApi(userQuestion, threadId);
+    console.log("Hoo:", response.msg);
+    res.json({ response: response });
   } catch (err) {
-    console.error("Error:", err);
-    res.status(500).json({ response: "Unable to answer the question." });
+    console.log(err);
+    res.json({ response: "Unable to answer right now!" });
   }
+
+  // try {
+  //   const similarChunks = await getReleventChunks(userQuestion);
+  //   const context = similarChunks.join("\n");
+  //   console.log(context);
+
+  //   const response = await axios.post(
+  //     "https://api.openai.com/v1/chat/completions",
+  //     {
+  //       model: "gpt-3.5-turbo",
+  //       messages: [
+  //         {
+  //           role: "system",
+  //           content:
+  //             "You are an expert assistant for YoungLabs, an edtech company. Use ONLY the information in the provided knowledge base below to answer. If you don't find relevant information, say: 'I'm not sure how to answer that right now.' Do not guess., if you are unable to answer any question so say connect with our team for more details",
+  //         },
+  //         {
+  //           role: "system",
+  //           content: `Knowledge Base: ${context}`,
+  //         },
+  //         {
+  //           role: "user",
+  //           content: userQuestion, // e.g. "What are the available courses?"
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       headers: {
+  //         Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+  //         "Content-Type": "application/json",
+  //       },
+  //     }
+  //   );
+
+  //   const answer = response.data.choices[0].message.content;
+  //   console.log(answer);
+  //   res.json({ response: answer });
+  // } catch (err) {
+  //   console.error("Error:", err);
+  //   res.status(500).json({ response: "Unable to answer the question." });
+  // }
 });
 
 app.listen(process.env.PORT || PORT, () => {
