@@ -1,0 +1,1368 @@
+{
+  "company": {
+    "name": "YoungLabs",
+    "description": "YoungLabs is an educational company focused on skill development for children and young learners. We provide customized courses designed for specific age groups with flexible learning plans.",
+    "contact": {
+      "email": "info@younglabs.in",
+      "phone": "+91-9289029696",
+      "website": "https://www.younglabs.in/"
+    }
+  },
+
+  "faqs": [
+    {
+      "question": "Benefits of Maths Learning Course",
+      "answer": "YoungLabs Maths Learning Course strengthens number sense, logical reasoning, and problem-solving. It is age-specific, includes interactive sessions, and ensures conceptual clarity—from basic operations to algebra and geometry building confidence for lifelong mathematical success"
+    },
+    {
+      "question": "Benefits of Handwritting Improvement Course",
+      "answer": "YoungLabs Handwriting Improvement Course enhances writing speed, legibility, and posture. Through structured strokes, word joining, and sentence practice, children build confidence and fluency improving both academic performance and presentation skills across subjects"
+    },
+    {
+      "question": "Benefits of English Wholistic Learning Program",
+      "answer": "YoungLabs' English Wholistic Learning Program builds strong foundations in reading, grammar, vocabulary, creative writing, and public speaking. It enhances communication skills, boosts confidence, and nurtures overall language development tailored to your child's age and learning level"
+    },
+    {
+      "question": "Why I choose YoungLabs",
+      "answer": "YoungLabs offers age-specific, skill-based learning with flexible plans. Their courses are interactive, personalized, and designed to build strong academic foundations in Maths, English, and more making learning effective, engaging, and result-driven for children."
+    },
+    {
+      "question": "How can i contact your team?",
+      "answer": "Sure! You can reach our team on WhatsApp at +91 9289029696. We're here to help!"
+    },
+    {
+      "question": "Cancellation & Refund Policy",
+      "answer": "To cancel your enrollment, send a written request via email or WhatsApp at least 24 hours before the course starts for a full refund. Cancellations made within 24 hours of the start are subject to a 25% cancellation fee. Refunds are prorated based on course completion. No refunds for completed courses. If YoungLabs cancels a course, you receive a full refund. Refunds are processed within 5–7 business days.For assistance, contact us at contact@younglabs.in or +91 9289029696"
+    },
+    {
+      "question": "How to access course?",
+      "answer": "Login First >> Click on my courses button >> you will see the list of courses you are enrolled in >> click on the course you want to access"
+    },
+    {
+      "question": "How to join classes from panel?",
+      "answer": "Go to My Courses >> Select a course/join classes >> On top of the page a timer would be visible indicating the time left for the next class, Join Class button will appear 5 minutes before the class along with the zoom details"
+    },
+    {
+      "question": "How to submit homework?",
+      "answer": "Go to My Courses >> Select a course/see classes >> Click on Homework Notebook. You can submit the homework within the homework notebook using your phone camera"
+    },
+    {
+      "question": "Need to reschedule a class",
+      "answer": "Go to My Courses >> Select a course/see classes >> Select a class >> Click on Reschedule. You can reschedule any missed class or next upcoming class. No other classes can be re-scheduled. You can re-schedule any number of classes but your re-scheduled class may not be with the same teacher"
+    },
+    {
+      "question": "I need class recording",
+      "answer": "Go to My Courses >> Select a course/see classes >> Select a class >> Click on Class Recording. You can request recording for up to 2 missed classes. The recording will play in your panel."
+    },
+    {
+      "question": "I missed a class",
+      "answer": "You can reschedule the class as follows. Go to My Courses >> Select a course/see classes >> Select a class >> Click on Reschedule. You can reschedule any missed class or next upcoming class. No other classes can be re-scheduled. You can re-schedule any number of classes but your re-scheduled class may not be with the same teacher."
+    },
+    {
+      "question": "I want to pause the classes and continue later.",
+      "answer": "Request you to click on Chat with Younglabs below and share your batch number. We will help you pause your batch and continue later"
+    },
+    {
+      "question": "I want to buy Advanced Course",
+      "answer": "You can go to My Courses and go to Level 2 – you can select a batch and pay."
+    },
+    {
+      "question": "I have some other question",
+      "answer": "Please click on Chat with us button below and we will respond to your query ASAP."
+    }
+  ],
+
+  "courseTypes": {
+    "rapid": {
+      "name": "Rapid Course",
+      "sessions": [
+        {
+          "count": 12,
+          "duration": "1 month",
+          "description": "Quick skill building in focused areas"
+        },
+        {
+          "count": 24,
+          "duration": "2 months",
+          "description": "Comprehensive rapid learning experience"
+        }
+      ]
+    },
+    "foundational": {
+      "name": "Foundational  Course",
+      "sessions": [
+        {
+          "count": 36,
+          "duration": "3 months",
+          "description": "Structured learning with detailed curriculum"
+        },
+        {
+          "count": 72,
+          "duration": "6 months",
+          "description": "In-depth academic development"
+        },
+        {
+          "count": 108,
+          "duration": "1 year",
+          "description": "Complete mastery program"
+        }
+      ]
+    },
+    "academicExcellenceProgram": {
+      "name": "Academic Excellence Program",
+      "sessions": [
+        {
+          "count": 36,
+          "duration": "3 months",
+          "description": "Structured learning with detailed curriculum"
+        },
+        {
+          "count": 72,
+          "duration": "6 months",
+          "description": "In-depth academic development"
+        },
+        {
+          "count": 144,
+          "duration": "1 year",
+          "description": "Complete mastery program"
+        }
+      ]
+    }
+  },
+
+  "rapidCourses": [
+    {
+      "name": "English Cursive Handwriting",
+      "availableBatchTypes": ["Solo Batch", "Group Batch"],
+      "sessions12": {
+        "topics": [
+          "Basic Strokes",
+          "Pen Holding",
+          "Posture",
+          "Words Joining",
+          "Sentence Practice",
+          "Paragraph Practice",
+          "Speed sessions"
+        ]
+      },
+      "sessions24": {
+        "topics": [
+          "Basic Strokes",
+          "Pen Holding",
+          "Posture",
+          "Words Joining",
+          "Sentence Practice",
+          "Paragraph Practice",
+          "Speed Sessions",
+          "Speed Practice Extra",
+          "Punctuation Marks",
+          "Exam Preparation",
+          "Competition"
+        ]
+      }
+    },
+    {
+      "name": "Spelling Power Pack",
+      "availableBatchTypes": ["Solo Batch"],
+      "sessions12": {
+        "topics": [
+          "Letter Formation Practice",
+          "Basic Spelling Rules",
+          "Commonly Misspelled Words (1-50)",
+          "Short Vowel Sounds and Spellings",
+          "Word Families and Patterns",
+          "Phonics-Based Spelling Practice",
+          "Simple Word Building Exercises",
+          "Introduction to Sight Words",
+          "Spelling with Fun Games",
+          "Practice Worksheets and Drills",
+          "Dictation and Oral Spelling Practice",
+          "Confidence Building with Spelling"
+        ]
+      },
+      "sessions24": {
+        "topics": [
+          "Letter Formation Practice",
+          "Basic Spelling Rules",
+          "Commonly Misspelled Words (1-100)",
+          "Short Vowel Sounds and Spellings",
+          "Word Families and Patterns",
+          "Phonics-Based Spelling Practice",
+          "Simple Word Building Exercises",
+          "Introduction to Sight Words",
+          "Spelling with Fun Games",
+          "Practice Worksheets and Drills",
+          "Dictation and Oral Spelling Practice",
+          "Confidence Building with Spelling",
+          "Advanced Spelling Patterns",
+          "Silent Letters in Words",
+          "Prefixes, Suffixes, and Spellings",
+          "Homophones and Homonyms Practice",
+          "Root Words and Word Formation",
+          "Long Vowel Sounds and Spellings",
+          "Irregular Spellings and Exceptions",
+          "Spelling Bee Style Practice",
+          "Word Application in Sentences",
+          "Punctuation and Spelling Accuracy",
+          "Exam-Oriented Spelling Practice",
+          "Competition Preparation Techniques"
+        ]
+      }
+    },
+    {
+      "name": "Maths Tables Mastery",
+      "availableBatchTypes": ["Solo Batch"],
+      "sessions12": {
+        "topics": [
+          "Introduction to Tables (1 to 10)",
+          "Understanding Multiplication Concepts",
+          "Skip Counting Techniques",
+          "Memorization Strategies",
+          "Fun with Table Patterns",
+          "Chanting and Repetition Exercises",
+          "Quick Recall Practice",
+          "Tables in Daily Life Examples",
+          "Flash Card Activities",
+          "Oral Test Practice",
+          "Confidence Building with Tables"
+        ]
+      },
+      "sessions24": {
+        "topics": [
+          "Complete Tables (1 to 20)",
+          "Advanced Multiplication Concepts",
+          "Speed Recall Activities",
+          "Challenging Table Patterns",
+          "Advanced Multiplication Tricks",
+          "Application in Word Problems",
+          "Competition Style Practice",
+          "Mixed Table Drills",
+          "Rapid Fire Table Rounds",
+          "Timed Practice Sessions",
+          "Mental Math Strategies",
+          "Confidence Under Pressure Practice"
+        ]
+      }
+    },
+    {
+      "name": "General Knowledge For Kids",
+      "availableBatchTypes": ["Solo Batch", "Group Batch"],
+      "sessions12": {
+        "topics": [
+          "Introduction to General Knowledge",
+          "Famous Personalities",
+          "National Symbols of India",
+          "Basic World Capitals & Countries",
+          "Famous Monuments",
+          "Important Days and Festivals",
+          "Our Solar System - Basic Facts",
+          "Continents and Oceans",
+          "Animal Kingdom Basics",
+          "Fruits and Vegetables Knowledge",
+          "Simple Science Facts",
+          "Confidence Building with GK Quizzes"
+        ]
+      },
+      "sessions24": {
+        "topics": [
+          "Comprehensive Indian Knowledge",
+          "World Geography Essentials",
+          "Historical Events and Personalities",
+          "Scientific Discoveries",
+          "Sports and Games",
+          "Art and Culture",
+          "Current Affairs Basics",
+          "Environmental Awareness",
+          "Technology and Innovation",
+          "Quiz Competition Preparation",
+          "Rapid Fire GK Practice",
+          "Critical Thinking with Facts"
+        ]
+      }
+    },
+    {
+      "name": "Grammar Mastery",
+      "availableBatchTypes": ["Solo Batch"],
+      "sessions12": {
+        "topics": {
+          "age_group_5_7": [
+            "Introduction to Phonics: Lay the foundation for English language skills through interactive phonics activities.",
+            "Basic Reading Readiness: Foster early reading habits and introduce fundamental reading comprehension strategies.",
+            "Confidence Building in Public Speaking: Initiate confidence-building exercises to ease young learners into expressing themselves in a supportive environment.",
+            "Vocabulary Expansion: Expand vocabulary through engaging activities and exposure to age-appropriate literature."
+          ],
+          "age_group_8_10": [
+            "Introduction to Phonics and Reading: Develop foundational phonics skills and cultivate a love for reading through engaging activities.",
+            "Grammar Fundamentals: Lay the groundwork for strong grammar skills, focusing on essential concepts for effective communication.",
+            "Initiation to Public Speaking: Build confidence in expressing ideas, overcoming fear, and mastering basic public speaking techniques.",
+            "Creative Writing Basics: Introduce the fundamentals of creative writing, encouraging imaginative expression and storytelling.",
+            "Holistic English Development: Foster a well-rounded English development approach, incorporating key language skills in a comprehensive manner."
+          ],
+          "age_group_11_14": [
+            "Build Fundamental Skills: Develop a strong foundation in reading, grammar, public speaking, and creative writing for overall English language proficiency.",
+            "Enhance Vocabulary and Comprehension: Expand vocabulary and improve comprehension skills through engaging activities and exercises.",
+            "Introduction to Public Speaking: Introduce basic principles of public speaking, focusing on overcoming fear, building confidence, and effective communication.",
+            "Creative Writing Basics: Explore the fundamentals of creative writing, including storytelling, descriptive writing, and character development."
+          ]
+        }
+      },
+      "sessions36": {
+        "topics": {
+          "age_group_5_7": [
+            "Phonics Mastery: Develop strong phonics skills for enhanced reading and spelling proficiency.",
+            "Comprehensive Reading Skills: Advance reading comprehension abilities through varied texts and discussions.",
+            "Public Speaking Fluency: Build fluency in public speaking with structured exercises and presentations.",
+            "Grammar Fundamentals: Introduce and reinforce foundational grammar concepts for effective communication."
+          ],
+          "age_group_8_10": [
+            "Advanced Phonics Mastery: Dive deeper into phonics, refining pronunciation and decoding skills for increased reading fluency.",
+            "Comprehensive Reading Strategies: Develop advanced reading comprehension techniques and strategies for diverse literary genres.",
+            "Grammar Proficiency: Strengthen grammatical knowledge, emphasizing complex structures and usage in various contexts.",
+            "Elevated Public Speaking Skills: Enhance public speaking proficiency, covering advanced techniques, persuasive communication, and effective audience engagement.",
+            "Creative Writing Excellence: Hone creative writing skills with a focus on crafting compelling narratives, descriptive language, and storytelling elements."
+          ],
+          "age_group_11_14": [
+            "Comprehensive Language Mastery: Delve deeper into reading, grammar, public speaking, and creative writing to achieve a comprehensive understanding and mastery of the English language.",
+            "Advanced Vocabulary Development: Expand and refine vocabulary for more sophisticated expression in both spoken and written communication.",
+            "Advanced Public Speaking Techniques: Explore advanced public speaking techniques, including persuasive speaking, audience engagement, and effective presentation skills.",
+            "Advanced Creative Writing Techniques: Hone advanced creative writing skills, such as plot development, dialogue writing, and thematic exploration."
+          ]
+        }
+      },
+      "sessions72": {
+        "topics": {
+          "age_group_5_7": [
+            "Advanced Phonics and Word Recognition: Master advanced phonics patterns and improve word recognition skills.",
+            "Critical Thinking in Reading: Foster critical thinking skills through in-depth analysis of diverse texts.",
+            "Advanced Public Speaking Techniques: Hone advanced public speaking techniques, including body language and audience engagement.",
+            "Creative Writing Exploration: Encourage creativity and self-expression through guided creative writing activities."
+          ],
+          "age_group_8_10": [
+            "Phonics Mastery and Application: Achieve mastery in phonics and apply acquired skills to diverse reading materials, building advanced language proficiency.",
+            "Literary Exploration and Analysis: Explore and analyze classic and contemporary literature, fostering a deeper understanding of literary elements and themes.",
+            "Grammar Mastery and Application: Attain a high level of grammatical proficiency, applying advanced grammar rules to enhance written and spoken communication.",
+            "Mastering the Art of Persuasion: Delve into advanced public speaking techniques, persuasive communication, and effective speech delivery for various audiences.",
+            "Creative Writing Masterclass: Engage in an immersive creative writing masterclass, refining writing styles, exploring diverse genres, and polishing storytelling skills."
+          ],
+          "age_group_11_14": [
+            "Expert-Level Proficiency: Attain expert-level proficiency in reading, grammar, public speaking, and creative writing through an extended and intensive learning journey.",
+            "Extensive Vocabulary Mastery: Master an extensive vocabulary range to articulate ideas with precision and eloquence.",
+            "Mastery of Public Speaking Dynamics: Achieve mastery in public speaking dynamics, including impromptu speaking, effective use of visuals, and adapting to diverse audiences.",
+            "Advanced Creative Writing Mastery: Achieve mastery in advanced creative writing techniques, enabling participants to create compelling and nuanced narratives."
+          ]
+        }
+      }
+    }
+  ],
+
+  "foundationalCourses": [
+    {
+      "name": "English Wholistic Development Course",
+      "availableBatchTypes": ["Solo Batch"],
+      "sessions36": {
+        "topics": {
+          "age_group_5_7": [
+            "Introduction to Phonics: Lay the foundation for English language skills through interactive phonics activities.",
+            "Basic Reading Readiness: Foster early reading habits and introduce fundamental reading comprehension strategies.",
+            "Confidence Building in Public Speaking: Initiate confidence-building exercises to ease young learners into expressing themselves in a supportive environment.",
+            "Vocabulary Expansion: Expand vocabulary through engaging activities and exposure to age-appropriate literature."
+          ],
+          "age_group_8_10": [
+            "Introduction to Phonics and Reading: Develop foundational phonics skills and cultivate a love for reading through engaging activities.",
+            "Grammar Fundamentals: Lay the groundwork for strong grammar skills, focusing on essential concepts for effective communication.",
+            "Initiation to Public Speaking: Build confidence in expressing ideas, overcoming fear, and mastering basic public speaking techniques.",
+            "Creative Writing Basics: Introduce the fundamentals of creative writing, encouraging imaginative expression and storytelling.",
+            "Holistic English Development: Foster a well-rounded English development approach, incorporating key language skills in a comprehensive manner."
+          ],
+          "age_group_11_14": [
+            "Build Fundamental Skills: Develop a strong foundation in reading, grammar, public speaking, and creative writing for overall English language proficiency.",
+            "Enhance Vocabulary and Comprehension: Expand vocabulary and improve comprehension skills through engaging activities and exercises.",
+            "Introduction to Public Speaking: Introduce basic principles of public speaking, focusing on overcoming fear, building confidence, and effective communication.",
+            "Creative Writing Basics: Explore the fundamentals of creative writing, including storytelling, descriptive writing, and character development."
+          ]
+        }
+      },
+      "sessions72": {
+        "topics": {
+          "age_group_5_7": [
+            "Phonics Mastery: Develop strong phonics skills for enhanced reading and spelling proficiency.",
+            "Comprehensive Reading Skills: Advance reading comprehension abilities through varied texts and discussions.",
+            "Public Speaking Fluency: Build fluency in public speaking with structured exercises and presentations.",
+            "Grammar Fundamentals: Introduce and reinforce foundational grammar concepts for effective communication."
+          ],
+          "age_group_8_10": [
+            "Advanced Phonics Mastery: Dive deeper into phonics, refining pronunciation and decoding skills for increased reading fluency.",
+            "Comprehensive Reading Strategies: Develop advanced reading comprehension techniques and strategies for diverse literary genres.",
+            "Grammar Proficiency: Strengthen grammatical knowledge, emphasizing complex structures and usage in various contexts.",
+            "Elevated Public Speaking Skills: Enhance public speaking proficiency, covering advanced techniques, persuasive communication, and effective audience engagement.",
+            "Creative Writing Excellence: Hone creative writing skills with a focus on crafting compelling narratives, descriptive language, and storytelling elements."
+          ],
+          "age_group_11_14": [
+            [
+              "Comprehensive Language Mastery: Delve deeper into reading, grammar, public speaking, and creative writing to achieve a comprehensive understanding and mastery of the English language.",
+              "Advanced Vocabulary Development: Expand and refine vocabulary for more sophisticated expression in both spoken and written communication.",
+              "Advanced Public Speaking Techniques: Explore advanced public speaking techniques, including persuasive speaking, audience engagement, and effective presentation skills.",
+              "Advanced Creative Writing Techniques: Hone advanced creative writing skills, such as plot development, dialogue writing, and thematic exploration."
+            ]
+          ]
+        }
+      },
+      "sessions108": {
+        "topics": {
+          "age_group_5_7": [
+            "Advanced Phonics and Word Recognition: Master advanced phonics patterns and improve word recognition skills.",
+            "Critical Thinking in Reading: Foster critical thinking skills through in-depth analysis of diverse texts.",
+            "Advanced Public Speaking Techniques: Hone advanced public speaking techniques, including body language and audience engagement.",
+            "Creative Writing Exploration: Encourage creativity and self-expression through guided creative writing activities."
+          ],
+          "age_group_8_10": [
+            [
+              "Phonics Mastery and Application: Achieve mastery in phonics and apply acquired skills to diverse reading materials, building advanced language proficiency.",
+              "Literary Exploration and Analysis: Explore and analyze classic and contemporary literature, fostering a deeper understanding of literary elements and themes.",
+              "Grammar Mastery and Application: Attain a high level of grammatical proficiency, applying advanced grammar rules to enhance written and spoken communication.",
+              "Mastering the Art of Persuasion: Delve into advanced public speaking techniques, persuasive communication, and effective speech delivery for various audiences.",
+              "Creative Writing Masterclass: Engage in an immersive creative writing masterclass, refining writing styles, exploring diverse genres, and polishing storytelling skills."
+            ]
+          ],
+          "age_group_11_14": [
+            "Expert-Level Proficiency: Attain expert-level proficiency in reading, grammar, public speaking, and creative writing through an extended and intensive learning journey.",
+            "Extensive Vocabulary Mastery: Master an extensive vocabulary range to articulate ideas with precision and eloquence.",
+            "Mastery of Public Speaking Dynamics: Achieve mastery in public speaking dynamics, including impromptu speaking, effective use of visuals, and adapting to diverse audiences.",
+            "Advanced Creative Writing Mastery: Achieve mastery in advanced creative writing techniques, enabling participants to create compelling and nuanced narratives."
+          ]
+        }
+      }
+    },
+    {
+      "name": "Maths Learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "sessions36": {
+        "topics": {
+          "age_group_5_7": [
+            "Shapes",
+            "Patterns",
+            "Assessments",
+            "Number Sense",
+            "Introduction to Tables"
+          ],
+          "age_group_8_10": [
+            "Place Values",
+            "Number Words",
+            "Logical Reasoning",
+            "Intro to Multiplication",
+            "Intro to Time and Money"
+          ],
+          "age_group_11_14": [
+            "Number System",
+            "Algebra",
+            "Fractions And Decimals",
+            "Integers",
+            "Rational Numbers"
+          ]
+        }
+      },
+      "sessions72": {
+        "topics": {
+          "age_group_5_7": [
+            "Introduction To Numbers",
+            "Basic Operations (Addition & Subtraction)",
+            "Shapes And Patterns",
+            "Measurement And Time",
+            "Data And Graphs"
+          ],
+          "age_group_8_10": [
+            "Place Value",
+            "Addition & Subtraction",
+            "Fractions And Decimals",
+            "Geometry & Measurement",
+            "Data And Statistics",
+            "Ratio & Proportion"
+          ],
+          "age_group_11_14": [
+            "Number System",
+            "Algebra",
+            "Fractions And Decimals",
+            "Integers",
+            "Rational Numbers",
+            "Algebraic Expressions And Equations",
+            "Exponents And Powers"
+          ]
+        }
+      },
+      "sessions108": {
+        "topics": {
+          "age_group_5_7": [
+            "Place Value",
+            "Addition & Subtraction",
+            "Fractions And Decimals",
+            "Geometry & Measurement",
+            "Data And Statistics",
+            "Ratio & Proportion",
+            "Statistics And Probability",
+            "Coordinate Geometry"
+          ],
+          "age_group_8_10": [
+            "Place Value",
+            "Addition & Subtraction",
+            "Fractions And Decimals",
+            "Geometry & Measurement",
+            "Data And Statistics",
+            "Ratio & Proportion",
+            "Time And Money",
+            "Algebraic Thinking"
+          ],
+          "age_group_11_14": [
+            "Number System",
+            "Algebra",
+            "Fractions And Decimals",
+            "Integers",
+            "Rational Numbers",
+            "Algebraic Expressions And Equations",
+            "Exponents And Powers",
+            "Statistics And Probability",
+            "Coordinate Geometry"
+          ]
+        }
+      }
+    }
+  ],
+
+  "academicExcellenceProgram": [
+    {
+      "name": "Maths Learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_1": [
+          "Pre-number Concepts",
+          "Shapes",
+          "Numbers 1 to 10",
+          "Shapes and Patterns",
+          "Ordinal Numbers",
+          "Money",
+          "Addition",
+          "Numbers",
+          "Time"
+        ],
+        "class_2": [
+          "Numbers",
+          "Data Handling",
+          "Subtraction",
+          "Addition",
+          "Money",
+          "Multiplication",
+          "Geometry",
+          "Measurement",
+          "Division",
+          "Patterns",
+          "Fractions"
+        ],
+        "class_3": [
+          "Division",
+          "Numbers and Numeration",
+          "Subtraction",
+          "Money",
+          "Fractions",
+          "Multiplication",
+          "Geometry",
+          "Measurement",
+          "Data Handling",
+          "Addition",
+          "Time",
+          "Patterns"
+        ],
+        "class_4": [
+          "Data Handling",
+          "Decimals",
+          "Fractions",
+          "Time",
+          "Numbers and Numeration",
+          "Subtraction",
+          "Geometry",
+          "Multiplication",
+          "Division",
+          "Money",
+          "Addition",
+          "Measurement"
+        ],
+        "class_5": [
+          "Division",
+          "Subtraction",
+          "Data Handling",
+          "Measurement",
+          "Numbers",
+          "Multiplication",
+          "Time",
+          "Money",
+          "Addition",
+          "Decimals",
+          "Fractions",
+          "Geometry"
+        ],
+        "class_6": [
+          "Geometry",
+          "Integers",
+          "Algebra",
+          "Ratio and Proportion",
+          "Decimals",
+          "Data Handling",
+          "Fractions",
+          "Practical Geometry",
+          "Symmetry",
+          "Whole Numbers",
+          "Mensuration"
+        ],
+        "class_7": [
+          "Rational Numbers",
+          "Mensuration",
+          "Fractions and Decimals",
+          "Practical Geometry",
+          "Data Handling",
+          "Algebraic Expressions",
+          "Number System",
+          "Ratio and Proportion",
+          "Exponents and Powers",
+          "Linear Equations",
+          "Geometry"
+        ],
+        "class_8": [
+          "Cube and Cube Roots",
+          "Mensuration",
+          "Exponents and Powers",
+          "Number System",
+          "Algebraic Expressions",
+          "Data Handling",
+          "Linear Equations",
+          "Square and Square Roots",
+          "Direct and Inverse Proportion",
+          "Geometry",
+          "Practical Geometry"
+        ],
+        "class_9": [
+          "Polynomials",
+          "Linear Equations",
+          "Circles",
+          "Quadrilaterals",
+          "Areas of Parallelograms and Triangles",
+          "Lines and Angles",
+          "Triangles",
+          "Constructions",
+          "Introduction to Euclid's Geometry",
+          "Rational Numbers",
+          "Coordinate Geometry"
+        ],
+        "class_10": [
+          "Constructions",
+          "Introduction to Trigonometry",
+          "Coordinate Geometry",
+          "Probability",
+          "Pair of Linear Equations in Two Variables",
+          "Quadratic Equations",
+          "Polynomials",
+          "Circles",
+          "Arithmetic Progressions",
+          "Number Systems",
+          "Statistics",
+          "Triangles",
+          "Applications of Trigonometry"
+        ],
+        "class_11": [
+          "Sets",
+          "Permutations and Combinations",
+          "Probability",
+          "Sequence and Series",
+          "Statistics",
+          "Conic Sections",
+          "Principle of Mathematical Induction",
+          "Linear Inequalities",
+          "Straight Lines",
+          "Introduction to Three-Dimensional Geometry",
+          "Relations and Functions",
+          "Trigonometric Functions",
+          "Mathematical Reasoning",
+          "Complex Numbers and Quadratic Equations",
+          "Binomial Theorem",
+          "Limits and Derivatives"
+        ],
+        "class_12": [
+          "Determinants",
+          "Three-Dimensional Geometry",
+          "Vector Algebra",
+          "Relations and Functions",
+          "Differential Equations",
+          "Matrices",
+          "Inverse Trigonometric Functions",
+          "Linear Programming",
+          "Application of Integrals",
+          "Continuity and Differentiability",
+          "Probability",
+          "Integrals",
+          "Application of Derivatives"
+        ]
+      }
+    },
+    {
+      "name": "Science Learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_1": [
+          "Plants",
+          "Water",
+          "Animals",
+          "Food",
+          "Light and Shadow",
+          "Earth and Sky",
+          "Weather and Seasons",
+          "Human Body",
+          "Living and Non-Living Things",
+          "Materials",
+          "Sound"
+        ],
+        "class_2": [
+          "Water",
+          "Air",
+          "Human Body",
+          "Weather and Seasons",
+          "Food",
+          "Materials",
+          "Sound",
+          "Earth and Sky",
+          "Animals",
+          "Plants",
+          "Light"
+        ],
+        "class_3": [
+          "Air",
+          "Light",
+          "Food",
+          "Forces and Motion",
+          "Water",
+          "Sound",
+          "Weather and Seasons",
+          "Human Body",
+          "Animals",
+          "Rocks and Soils",
+          "Plants"
+        ],
+        "class_4": [
+          "Sound",
+          "Electricity",
+          "Air",
+          "Human Body",
+          "Light",
+          "Forces and Motion",
+          "Plants",
+          "Food",
+          "Water",
+          "Materials",
+          "Animals"
+        ],
+        "class_5": [
+          "Water",
+          "Sound",
+          "Human Body",
+          "Air",
+          "Food",
+          "Forces and Motion",
+          "Materials",
+          "Electricity and Magnetism",
+          "Light",
+          "Soil",
+          "Plants",
+          "Animals"
+        ],
+        "class_6": [
+          "Fabrics",
+          "Light",
+          "Shadows",
+          "and Reflection",
+          "Air and Atmosphere",
+          "Animals",
+          "Natural Resources",
+          "Human Body",
+          "Electricity and Circuits",
+          "Magnets and Magnetism",
+          "Plants",
+          "Water",
+          "Food and Nutrition",
+          "Materials"
+        ],
+        "class_7": [
+          "Soil",
+          "Heat",
+          "Winds",
+          "Storms",
+          "and Cyclones",
+          "Reproduction in Plants",
+          "Transportation in Animals and Plants",
+          "Nutrition in Animals",
+          "Acids",
+          "Bases",
+          "and Salts",
+          "Physical and Chemical Changes",
+          "Nutrition in Plants",
+          "Respiration in Organisms",
+          "Weather",
+          "Climate",
+          "and Adaptations",
+          "Fibre to Fabric"
+        ],
+        "class_8": [
+          "Synthetic Fibres and Plastics",
+          "Coal and Petroleum",
+          "Reproduction in Animals",
+          "Cell: Structure and Functions",
+          "Crop Production and Management",
+          "Materials: Metals and Non-Metals",
+          "Microorganisms: Friend and Foe",
+          "Sound",
+          "Friction",
+          "Force and Pressure",
+          "Conservation of Plants and Animals",
+          "Combustion and Flame",
+          "Reaching the Age of Adolescence"
+        ],
+        "class_9": [
+          "Carbon and Its Compounds",
+          "Heredity and Evolution",
+          "Reproduction in Organisms",
+          "Electricity",
+          "Magnetic Effects of Electric Current",
+          "Light: Reflection and Refraction",
+          "Life Processes",
+          "Chemical Reactions and Equations",
+          "Control and Coordination",
+          "The Human Eye and the Colourful World",
+          "Acids",
+          "Bases",
+          "and Salts",
+          "Periodic Classification of Elements",
+          "Metals and Non-Metals",
+          "Sources of Energy"
+        ],
+        "class_10": [
+          "Metals and Non-Metals",
+          "Carbon and Its Compounds",
+          "Control and Coordination",
+          "Heredity and Evolution",
+          "Life Processes",
+          "Periodic Classification of Elements",
+          "Reproduction",
+          "Electricity",
+          "Acids",
+          "Bases",
+          "and Salts",
+          "Chemical Reactions",
+          "Magnetic Effects of Electric Current",
+          "Sources of Energy",
+          "Light"
+        ]
+      }
+    },
+    {
+      "name": "English Learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_1": [
+          "Rhymes and Songs",
+          "Picture Reading",
+          "Basic Vocabulary",
+          "Writing Skills",
+          "Sentence Formation",
+          "Reading Comprehension",
+          "Storytelling",
+          "Alphabets and Phonics",
+          "Grammar Basics",
+          "Listening and Speaking"
+        ],
+        "class_2": [
+          "Writing Skills",
+          "Storytelling",
+          "Listening and Speaking",
+          "Vocabulary Building",
+          "Alphabet Recognition",
+          "Grammar",
+          "Creative Expression",
+          "Phonics and Word Formation",
+          "Reading Comprehension",
+          "Sentence Structure"
+        ],
+        "class_3": [
+          "Alphabet and Phonics",
+          "Storytelling",
+          "Creative Writing",
+          "Listening and Speaking",
+          "Spelling and Vocabulary",
+          "Grammar",
+          "Reading Comprehension",
+          "Vocabulary Development",
+          "Writing Skills",
+          "Grammar and Sentence Structure"
+        ],
+        "class_4": [
+          "Alphabets and Phonics",
+          "Listening and Speaking",
+          "Spelling and Vocabulary",
+          "Reading Comprehension",
+          "Creative Writing",
+          "Phonics and Word Formation",
+          "Grammar",
+          "Vocabulary Expansion",
+          "Writing Skills",
+          "Storytelling"
+        ],
+        "class_5": [
+          "Grammar",
+          "Storytelling",
+          "Phonics and Spelling",
+          "Creative Writing",
+          "Spelling and Vocabulary",
+          "Writing Skills",
+          "Reading Comprehension",
+          "Listening and Speaking",
+          "Vocabulary Building"
+        ],
+        "class_6": [
+          "Vocabulary Expansion",
+          "Listening and Speaking",
+          "Spelling and Vocabulary",
+          "Creative Writing",
+          "Reading Comprehension",
+          "Storytelling",
+          "Grammar",
+          "Writing Skills",
+          "Phonics and Word Formation"
+        ],
+        "class_7": [
+          "Vocabulary Development",
+          "Reading Comprehension",
+          "Literature",
+          "Grammar",
+          "Spelling and Vocabulary",
+          "Phonics and Spelling",
+          "Listening and Speaking",
+          "Writing Skills",
+          "Creative Writing"
+        ],
+        "class_8": [
+          "Literature",
+          "Vocabulary Development",
+          "Reading Comprehension",
+          "Creative Writing",
+          "Spelling and Vocabulary",
+          "Writing Skills",
+          "Grammar",
+          "Listening and Speaking",
+          "Phonics and Spelling"
+        ],
+        "class_9": [
+          "Literature",
+          "Spelling and Vocabulary",
+          "Listening and Speaking",
+          "Grammar",
+          "Reading Comprehension",
+          "Phonics and Spelling",
+          "Vocabulary Development",
+          "Creative Writing",
+          "Writing Skills"
+        ],
+        "class_10": [
+          "Reading Comprehension",
+          "Creative Writing",
+          "Vocabulary Development",
+          "Writing Skills",
+          "Spelling",
+          "Phonics and Spelling",
+          "Grammar",
+          "Listening and Speaking",
+          "Literature"
+        ],
+        "class_11": [
+          "Writing Skills",
+          "Snapshots (Supplementary Reader)",
+          "Reading Comprehension",
+          "Hornbill (Prose)",
+          "Grammar",
+          "Hornbill (Poetry)"
+        ],
+        "class_12": [
+          "Flamingo (Prose)",
+          "Reading Comprehension",
+          "Flamingo (Poetry)",
+          "Writing Skills",
+          "Vistas (Supplementary Reader)",
+          "Grammar"
+        ]
+      }
+    },
+    {
+      "name": "Hindi Learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_1": [
+          "Days and Months",
+          "Review and Reinforcement",
+          "Simple Sentences",
+          "Numbers in Hindi",
+          "Basic Conversation",
+          "Hindi Alphabet",
+          "Cultural Awareness",
+          "Fun Activities",
+          "Basic Vocabulary",
+          "Introduction to Hindi"
+        ],
+        "class_2": [
+          "Hindi Vocabulary",
+          "Hindi Storytelling",
+          "Introduction to Hindi",
+          "Daily Conversations in Hindi",
+          "Hindi Numbers",
+          "Basic Hindi Grammar",
+          "Cultural Aspects of Hindi",
+          "Hindi Songs and Rhymes"
+        ],
+        "class_3": [
+          "Numbers in Hindi",
+          "Simple Words and Phrases",
+          "Simple Sentences",
+          "Basic Grammar Concepts",
+          "Days of the Week and Months",
+          "Cultural Aspects",
+          "Colors and Shapes",
+          "Basic Hindi Alphabets",
+          "Family and Relationships",
+          "Animals and Nature"
+        ],
+        "class_4": [
+          "Reading Comprehension",
+          "Introduction to Hindi",
+          "Sentence Formation",
+          "Writing Skills",
+          "Hindi Vocabulary",
+          "Hindi Grammar",
+          "Conversational Hindi",
+          "Cultural Aspects of Hindi"
+        ],
+        "class_5": [
+          "Writing Skills",
+          "Reading Comprehension",
+          "Sentence Structure",
+          "Vocabulary Building",
+          "Hindi Grammar Basics",
+          "Listening and Speaking Skills",
+          "Cultural Aspects of Hindi Language",
+          "Introduction to Hindi"
+        ],
+        "class_6": [
+          "Vocabulary Building",
+          "Hindi Alphabet and Script",
+          "Introduction to Hindi",
+          "Writing Skills",
+          "Cultural Context",
+          "Reading Comprehension",
+          "Basic Grammar",
+          "Assessment and Revision",
+          "Listening and Speaking Skills"
+        ],
+        "class_7": [
+          "Story Literature",
+          "Conversation",
+          "Translation",
+          "Songs and Poems",
+          "Cultural Knowledge",
+          "Hindi Alphabet",
+          "Grammar",
+          "Word Formation"
+        ],
+        "class_8": [
+          "Indian Culture and Literature",
+          "Dialogue and Communication",
+          "Culture and Society",
+          "Poetry and Poetics",
+          "Personality Development",
+          "Grammar",
+          "Development of Language",
+          "Story Literature"
+        ],
+        "class_9": [
+          "Reading Comprehension",
+          "Cultural Context of Hindi",
+          "Writing Skills",
+          "Speaking and Listening Skills",
+          "Hindi Literature",
+          "Vocabulary Building",
+          "Basic Hindi Grammar"
+        ],
+        "class_10": [
+          "Speaking and Listening Skills",
+          "Writing Skills",
+          "Reading Comprehension",
+          "Vocabulary Development",
+          "Assessment and Evaluation",
+          "Grammar Essentials",
+          "Cultural Contexts"
+        ]
+      }
+    },
+    {
+      "name": "Socal Studies (SST) learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_1": [
+          "Family and Friends",
+          "Introduction to Social Studies",
+          "Environmental Awareness",
+          "Community Helpers",
+          "Citizenship and our Rights",
+          "Our Country",
+          "Understanding Maps",
+          "Culture and Traditions",
+          "History and Time"
+        ],
+        "class_2": [
+          "Economics and Trade",
+          "Government and Leadership",
+          "Citizenship and Responsibility",
+          "Geography Basics",
+          "Cultures Around the World",
+          "Our Community",
+          "History and Holidays"
+        ],
+        "class_3": [
+          "Government and Citizenship",
+          "Global Awareness",
+          "Cultural Diversity",
+          "Civic Responsibility",
+          "Geography Basics",
+          "History of Our Nation",
+          "Economics for Kids",
+          "Environmental Awareness",
+          "Introduction to Community"
+        ],
+        "class_4": [
+          "Culture and Society",
+          "Current Events",
+          "Government and Citizenship",
+          "Introduction to Social Studies",
+          "History",
+          "Geography",
+          "Community and Environment",
+          "Economics"
+        ],
+        "class_5": [
+          "Government and Citizenship",
+          "Environmental Awareness",
+          "Geography and Map Skills",
+          "Economics and Trade",
+          "Historical Timelines",
+          "Important Figures in History",
+          "Understanding Communities",
+          "Cultures and Traditions"
+        ],
+        "class_6": [
+          "Social Justice and Equity",
+          "Economics and Trade",
+          "Geography and Map Skills",
+          "History and Historical Thinking",
+          "Cultural Diversity",
+          "Government and Citizenship",
+          "Current Events",
+          "Environmental Responsibility"
+        ],
+        "class_7": [
+          "Government and Citizenship",
+          "Culture and Society",
+          "Geography and Environment",
+          "Economics and Trade",
+          "History of Civilizations",
+          "Current Events and Global Issues"
+        ],
+        "class_8": [
+          "Current Events",
+          "Understanding Geography",
+          "Economics",
+          "Cultural Studies",
+          "World History",
+          "Civics and Government"
+        ],
+        "class_9": [
+          "Current Events and Global Issues",
+          "Personal Finance and Economics",
+          "Introduction to Social Studies",
+          "History and Civilizations",
+          "Economics and Resources",
+          "Geography and Maps",
+          "Culture and Society",
+          "Government and Citizenship"
+        ],
+        "class_10": [
+          "Culture and Society",
+          "Geography",
+          "Economics",
+          "Civics and Government",
+          "Current Events",
+          "History"
+        ]
+      }
+    },
+    {
+      "name": "Biology learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_11": [
+          "Plant Physiology",
+          "Cell Structure and Function",
+          "Structural Organisation in Animals",
+          "Human Physiology",
+          "Diversity of the Living World"
+        ],
+        "class_12": [
+          "Ecology and Environment",
+          "Genetics and Evolution",
+          "Reproduction",
+          "Biology and Human Welfare"
+        ]
+      }
+    },
+    {
+      "name": "Chemistry learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_11": [
+          "States of Matter",
+          "Equilibrium",
+          "Organic Chemistry - Some Basic Principles and Techniques",
+          "Structure of Atom",
+          "The s-Block Elements (Alkali and Alkaline Earth Metals)",
+          "Hydrocarbons",
+          "Classification of Elements and Periodicity in Properties",
+          "Thermodynamics",
+          "Chemical Bonding and Molecular Structure",
+          "Environmental Chemistry",
+          "Redox Reactions",
+          "Some Basic Concepts of Chemistry",
+          "Hydrogen",
+          "The p-Block Elements (Group 13 and 14)"
+        ],
+        "class_12": [
+          "Chemical Kinetics",
+          "Alcohols, Phenols, and Ethers",
+          "Polymers",
+          "Surface Chemistry",
+          "Solid State",
+          "Organic Compounds Containing Nitrogen",
+          "Aldehydes, Ketones, and Carboxylic Acids",
+          "Coordination Compounds",
+          "Electrochemistry",
+          "The d- and f-Block Elements",
+          "Solutions",
+          "Haloalkanes and Haloarenes",
+          "Biomolecules",
+          "General Principles and Processes of Isolation of Elements",
+          "The p-Block Elements",
+          "Chemistry in Everyday Life"
+        ]
+      }
+    },
+    {
+      "name": "Physics learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_11": [
+          "Behaviour of Perfect Gas and Kinetic Theory",
+          "Kinematics",
+          "Gravitation",
+          "Thermodynamics",
+          "Work, Energy, and Power",
+          "Physical World and Measurement",
+          "Laws of Motion",
+          "System of Particles and Rotational Motion",
+          "Oscillations and Waves",
+          "Properties of Bulk Matter"
+        ],
+        "class_12": [
+          "Ray Optics and Optical Instruments",
+          "Electric Charges and Fields",
+          "Communication Systems",
+          "Electromagnetic Waves",
+          "Moving Charges and Magnetism",
+          "Dual Nature of Radiation and Matter",
+          "Electromagnetic Induction",
+          "Magnetism and Matter",
+          "Current Electricity",
+          "Alternating Current",
+          "Semiconductor Electronics",
+          "Electrostatic Potential and Capacitance",
+          "Wave Optics",
+          "Atoms and Nuclei"
+        ]
+      }
+    },
+    {
+      "name": "Accountancy learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_11": [
+          "Bank Reconciliation Statement",
+          "Trial Balance and Rectification of Errors",
+          "Financial Statements of Sole Proprietorship",
+          "Basic Accounting Terms",
+          "Accounts from Incomplete Records",
+          "Accounting Equation",
+          "Accounting for Not-for-Profit Organizations",
+          "Journal and Ledger",
+          "Introduction to Accounting",
+          "Depreciation, Provisions, and Reserves"
+        ],
+        "class_12": [
+          "Bank Reconciliation Statement",
+          "Trial Balance and Rectification of Errors",
+          "Financial Statements of Sole Proprietorship",
+          "Basic Accounting Terms",
+          "Accounts from Incomplete Records",
+          "Accounting Equation",
+          "Accounting for Not-for-Profit Organizations",
+          "Journal and Ledger",
+          "Introduction to Accounting",
+          "Depreciation, Provisions, and Reserves"
+        ]
+      }
+    },
+    {
+      "name": "Business studies learning",
+      "availableBatchTypes": ["Solo Batch"],
+      "topics": {
+        "class_11": [
+          "Nature and Purpose of Business",
+          "Internal Trade",
+          "Emerging Modes of Business",
+          "International Business",
+          "Small Business and Entrepreneurship",
+          "Sources of Business Finance",
+          "Forms of Business Organizations",
+          "Business Services",
+          "Public, Private and Global Enterprises",
+          "Social Responsibility of Business and Business Ethics"
+        ],
+        "class_12": [
+          "Business Environment",
+          "Financial Management",
+          "Principles of Management",
+          "Marketing Management",
+          "Directing",
+          "Controlling",
+          "Nature and Significance of Management",
+          "Organizing",
+          "Staffing",
+          "Planning"
+        ]
+      }
+    }
+  ],
+
+  "sales_script": [
+    "Hi! Welcome to YoungLabs. Are you looking for courses that build your child's skills in English, Maths, or General Knowledge?",
+    "We offer two types of courses: Rapid Courses (12 sessions/1 month or 24 sessions/2 months) for quick skill building in specific areas like Cursive Handwriting, Spelling, Tables, GK, and Grammar. We also have Foundational Courses (36 sessions/3 months, 72 sessions/6 months, or 144 sessions/1 year) for comprehensive development in English and Mathematics.",
+    "Our courses are interactive, skill-based, and focus on building strong foundations and advanced skills depending on your child's learning goals.",
+    "Would you like to know more about our Rapid Courses for quick skill building or our Academic Courses for comprehensive development?"
+  ]
+}
