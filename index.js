@@ -79,6 +79,11 @@ app.get("/query", async (req, res) => {
   // }
 });
 
+app.post("/test", async (req, res) => {
+  console.log(req.body);
+  res.status(2000).json({ message: "Hello" });
+});
+
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });

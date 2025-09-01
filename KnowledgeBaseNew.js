@@ -1,14 +1,51 @@
-const knowledgeBase = {
+const knowldgeBaseNew = {
   company: {
     name: "YoungLabs",
     description:
       "YoungLabs is an educational company focused on skill development for children and young learners. We provide customized courses designed for specific age groups with flexible learning plans.",
     contact: {
-      email: "info@younglabs.in",
       phone: "+91-9289029696",
       website: "https://www.younglabs.in/",
     },
   },
+
+  frequentlyAskedQuestions: [
+    {
+      question: "Benefits of Maths Learning Course",
+      answer:
+        "YoungLabs Maths Learning Course strengthens number sense, logical reasoning, and problem-solving. It is age-specific, includes interactive sessions, and ensures conceptual clarity—from basic operations to algebra and geometry building confidence for lifelong mathematical success",
+    },
+    {
+      question: "Acedamic Excellance Program",
+      answer:
+        "YoungLabs' Academic Excellence Program is a structured online tuition solution for students from Class 1 to 12. It covers subjects like Maths, English, Science (Physics, Chemistry, Biology), Hindi, Social Studies, Business Studies, and Commerce. Available in 36, 72, and 144 sessions for 3, 6, and 12 months",
+    },
+    {
+      question: "Benefits of Handwritting Improvement Course",
+      answer:
+        "YoungLabs Handwriting Improvement Course enhances writing speed, legibility, and posture. Through structured strokes, word joining, and sentence practice, children build confidence and fluency improving both academic performance and presentation skills across subjects",
+    },
+    {
+      question: "Benefits of English Wholistic Learning Program",
+      answer:
+        "YoungLabs' English Wholistic Learning Program builds strong foundations in reading, grammar, vocabulary, creative writing, and public speaking. It enhances communication skills, boosts confidence, and nurtures overall language development tailored to your child's age and learning level",
+    },
+    {
+      question: "Why I choose YoungLabs",
+      answer:
+        "YoungLabs offers age-specific, skill-based learning with flexible plans. Their courses are interactive, personalized, and designed to build strong academic foundations in Maths, English, and more making learning effective, engaging, and result-driven for children.",
+    },
+    {
+      question: "How can i contact your team?",
+      answer:
+        "Sure! You can reach our team on WhatsApp at +91 9289029696. We're here to help!",
+    },
+    {
+      question: "Cancellation & Refund Policy",
+      answer:
+        "To cancel your enrollment, send a written request via email or WhatsApp at least 24 hours before the course starts for a full refund. Cancellations made within 24 hours of the start are subject to a 25% cancellation fee. Refunds are prorated based on course completion. No refunds for completed courses. If YoungLabs cancels a course, you receive a full refund. Refunds are processed within 5–7 business days.For assistance, contact us at contact@younglabs.in or +91 9289029696",
+    },
+  ],
 
   courseTypes: {
     rapid: {
@@ -26,8 +63,8 @@ const knowledgeBase = {
         },
       ],
     },
-    academic: {
-      name: "Academic Course",
+    foundational: {
+      name: "Foundational  Course",
       sessions: [
         {
           count: 36,
@@ -41,6 +78,26 @@ const knowledgeBase = {
         },
         {
           count: 108,
+          duration: "1 year",
+          description: "Complete mastery program",
+        },
+      ],
+    },
+    academicExcellenceProgram: {
+      name: "Academic Excellence Program",
+      sessions: [
+        {
+          count: 36,
+          duration: "3 months",
+          description: "Structured learning with detailed curriculum",
+        },
+        {
+          count: 72,
+          duration: "6 months",
+          description: "In-depth academic development",
+        },
+        {
+          count: 144,
           duration: "1 year",
           description: "Complete mastery program",
         },
@@ -273,7 +330,7 @@ const knowledgeBase = {
     },
   ],
 
-  academicCourses: [
+  foundationalCourses: [
     {
       name: "English Wholistic Development Course",
       availableBatchTypes: ["Solo Batch"],
@@ -445,9 +502,44 @@ const knowledgeBase = {
     },
   ],
 
+  academicExcellenceProgramCourses: [
+    {
+      name: "English Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Maths Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Hindi Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Science Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Social Science Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Physics Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Chemistry Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+    {
+      name: "Biology Learning",
+      availableBatchTypes: ["Solo Batch"],
+    },
+  ],
+
   sales_script: [
     "Hi! Welcome to YoungLabs. Are you looking for courses that build your child's skills in English, Maths, or General Knowledge?",
-    "We offer two types of courses: Rapid Courses (12 sessions/1 month or 24 sessions/2 months) for quick skill building in specific areas like Cursive Handwriting, Spelling, Tables, GK, and Grammar. We also have Academic Courses (36 sessions/3 months, 72 sessions/6 months, or 144 sessions/1 year) for comprehensive development in English and Mathematics.",
+    "We offer two types of courses: Rapid Courses (12 sessions/1 month or 24 sessions/2 months) for quick skill building in specific areas like Cursive Handwriting, Spelling, Tables, GK, and Grammar. We also have Foundational Courses (36 sessions/3 months, 72 sessions/6 months, or 144 sessions/1 year) for comprehensive development in English and Mathematics.",
     "Our courses are interactive, skill-based, and focus on building strong foundations and advanced skills depending on your child's learning goals.",
     "Would you like to know more about our Rapid Courses for quick skill building or our Academic Courses for comprehensive development?",
   ],
