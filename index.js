@@ -12,6 +12,8 @@ import { OpenAI } from "openai";
 import { getReleventChunks } from "./getReleventChunks.js";
 
 const app = express();
+
+app.use(express.json());
 const PORT = 3001;
 app.use(cors());
 
@@ -81,7 +83,7 @@ app.get("/query", async (req, res) => {
 
 app.post("/test", async (req, res) => {
   console.log(req.body);
-  res.status(2000).json({ message: "Hello" });
+  res.status(200).json({ message: "Hello" });
 });
 
 app.listen(process.env.PORT || PORT, () => {
